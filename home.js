@@ -38,9 +38,9 @@ function filterByPrice() {
     const min = parseFloat(minStr);
     const max = maxStr === 'max' ? Infinity : parseFloat(maxStr);
 
-    console.log(range);
-    console.log(min);
-    console.log(max);
+    // console.log(range);
+    // console.log(min);
+    // console.log(max);
 
     for(let i = 0; i < rawdata.length; i++){
         if(rawdata[i].productMedia.length > 0)

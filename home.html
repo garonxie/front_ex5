@@ -16,14 +16,14 @@
 </nav>
 
 <div style="margin-left:45px;">
-    <label for="priceRange">价格筛选:</label>
-    <select id="priceRange" name="priceRange" onchange="filterByPrice()">
-        <option value="">全部</option>
-        <option value="1-100">1-100</option>
-        <option value="101-500">101-500</option>
-        <option value="501-1000">501-1000</option>
-        <option value="1001-max">大于1000</option>
-    </select>
+        <label for="priceRange" class="form-label">价格范围</label>
+        <select id="priceRange" name="priceRange" class="form-select" onchange="filterByPrice()">
+            <option value="1-max">全部</option>
+            <option value="1-100">1-100</option>
+            <option value="101-500">101-500</option>
+            <option value="501-1000">501-1000</option>
+            <option value="1001-max">大于1000</option>
+        </select>
 </div>
 
 <!--页面容器-->
